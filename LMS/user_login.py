@@ -26,6 +26,13 @@ def REGISTER(request):
         )
         user.set_password(password)
         user.save()
+        mail_subject = "Your Registration is successful"
+        message = render_to_string('Registration/user_registration_email.html', {
+            'username': username
+        })
+        to_email = email
+        send_email = EmailMessage(mail_subject, message, to=[to_email])
+        send_email.send()
         return redirect('login')
     return render(request, 'Registration/register.html')
 

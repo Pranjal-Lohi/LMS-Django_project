@@ -138,8 +138,8 @@ LOGOUT_REDIRECT_URL = 'login'
 EMAIL_USE_TLS = True
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = 587
-EMAIL_HOST_USER = 'pranjall.cse21@sbjit.edu.in'
-EMAIL_HOST_PASSWORD = 'Nagpur@123'
+EMAIL_HOST_USER = 'pranjallohi22@gmail.com'
+EMAIL_HOST_PASSWORD = 'geeiqutgxurrhusu'
 
 
 KEY_ID = 'rzp_test_DQWDOYKrEyOKLs'

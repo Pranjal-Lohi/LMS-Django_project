@@ -7,18 +7,9 @@
     ================================================== -->
     <header class="py-8 py-md-11" style="background-image: none;">
         <div class="container text-center py-xl-2">
+
             <h1 class="display-4 fw-semi-bold mb-0">Enrolled Courses</h1>
             <nav aria-label="breadcrumb">
-                <ol class="breadcrumb breadcrumb-scroll justify-content-center">
-                    <li class="breadcrumb-item">
-                        <a class="text-gray-800" href="{% url 'home' %}">
-                            Home
-                        </a>
-                    </li>
-                    <li class="breadcrumb-item text-gray-800 active" aria-current="page">
-                        My Courses 
-                    </li>
-                </ol>
             </nav>
         </div>
         <!-- Img -->
@@ -30,7 +21,7 @@
     ================================================== -->
     <div class="container mb-6 mb-xl-8 z-index-2">
         <div class="d-xl-flex align-items-center">
-            <p class="mb-xl-0">We found <span class="text-dark">834 courses</span> available for you</p>
+            <p class="mb-xl-0">We found <span class="text-dark">550 courses</span> available for you</p>
             <div class="ms-xl-auto d-xl-flex flex-wrap">
                 <div class="mb-4 mb-xl-0 ms-xl-6">
                     <!-- Search -->
@@ -54,7 +45,7 @@
                 <div class="mb-4 mb-xl-0 ms-xl-6">
                     <select class="form-select form-select-sm text-dark shadow-none dropdown-menu-end" data-choices>
                         <option>All Categories</option>
-                        <option>Another option</option>
+                        <option></option>
                         <option>Something else here</option>
                     </select>
                 </div>
@@ -65,8 +56,7 @@
                         <select class="form-select form-select-sm text-dark border-0 ps-1 bg-transparent flex-grow-1 shadow-none dropdown-menu-end" data-choices>
                             <option>Default</option>
                             <option>New Courses</option>
-                            <option>Price Low to High</option>
-                            <option>Price High to low</option>
+                            
                         </select>
                     </div>
                 </div>
@@ -116,7 +106,7 @@
                     <div class="card-footer px-2 pb-2 mb-1 pt-4 position-relative">
                         <a href="{{i.get_absolute_url}}" class="d-block">
                             <div class="avatar avatar-xl badge-float position-absolute top-0 right-0 mt-n6 me-5 rounded-circle shadow border border-white border-w-lg">
-                                <img src="{{i.author.author_profile}}" alt="..." class="avatar-img rounded-circle">
+                                <img src="static\assets\img\avatars\avatar-5.jpg" alt="..." class="avatar-img rounded-circle">
                             </div>
                         </a>
 
@@ -214,7 +204,7 @@
                         </div>
 
                         <a href="course-single-v2.html" class="card-img sk-thumbnail d-block">
-                            <img class="rounded shadow-light-lg" src="assets/img/products/product-1.jpg" alt="...">
+                            <img class="rounded shadow-light-lg" src="static\assets\img\avatars\photoshop1.jpeg" alt="...">
                         </a>
 
                         <span class="badge sk-fade-bottom badge-lg badge-orange badge-pill badge-float bottom-0 left-0 mb-4 ms-4">
@@ -226,7 +216,7 @@
                     <div class="card-footer px-2 pb-2 mb-1 pt-4 position-relative">
                         <a href="instructors-single.html" class="d-block">
                             <div class="avatar sk-fade-right avatar-xl badge-float position-absolute top-0 right-0 mt-n6 me-5 rounded-circle shadow border border-white border-w-lg">
-                                <img src="assets/img/avatars/avatar-1.jpg" alt="..." class="avatar-img rounded-circle">
+                                <img src="static\assets\img\avatars\avatar-5.jpg" alt="..." class="avatar-img rounded-circle">
                             </div>
                         </a>
 
@@ -235,7 +225,7 @@
 
                         <!-- Heading -->
                         <div class="position-relative">
-                            <a href="course-single-v2.html" class="d-block stretched-link"><h4 class="line-clamp-2 h-md-48 h-lg-58 me-md-6 me-lg-10 me-xl-4 mb-2">Fashion Photography From Professional</h4></a>
+                            <a href="course-single-v2.html" class="d-block stretched-link"><h4 class="line-clamp-2 h-md-48 h-lg-58 me-md-6 me-lg-10 me-xl-4 mb-2"> Photography From Professional</h4></a>
 
                             <div class="d-lg-flex align-items-end flex-wrap mb-n1">
                                 <div class="star-rating mb-2 mb-lg-0 me-lg-3">
@@ -259,7 +249,7 @@
                                                     </svg>
 
                                                 </div>
-                                                <div class="font-size-sm">5 lessons</div>
+                                                <div class="font-size-sm">14 lessons</div>
                                             </div>
                                         </li>
                                         <li class="nav-item px-3">
@@ -280,7 +270,7 @@
 
                                 <div class="col-auto px-2 text-right">
                                     <del class="font-size-sm">$959</del>
-                                    <ins class="h4 mb-0 d-block mb-lg-n1">$415.99</ins>
+                                    <ins class="h4 mb-0 d-block mb-lg-n1">Free</ins>
                                 </div>
                             </div>
                         </div>
@@ -293,7 +283,7 @@
                     <!-- Image -->
                     <div class="card-zoom position-relative">
                         <a href="course-single-v2.html" class="card-img sk-thumbnail d-block">
-                            <img class="rounded shadow-light-lg" src="assets/img/products/product-2.jpg" alt="...">
+                            <img class="rounded shadow-light-lg" src="static\assets\img\avatars\javascript.jpeg" alt="...">
                         </a>
                     </div>
 
@@ -301,16 +291,16 @@
                     <div class="card-footer px-2 pb-2 mb-1 pt-4 position-relative">
                         <a href="instructors-single.html" class="">
                             <div class="avatar avatar-xl sk-fade-right badge-float position-absolute top-0 right-0 mt-n6 me-5 rounded-circle shadow border border-white border-w-lg">
-                                <img src="assets/img/avatars/avatar-2.jpg" alt="..." class="avatar-img rounded-circle">
+                                <img src="static\assets\img\avatars\avatar-4.jpg" alt="..." class="avatar-img rounded-circle">
                             </div>
                         </a>
 
                         <!-- Preheading -->
-                        <a href="course-single-v2.html"><span class="mb-1 d-inline-block text-gray-800">Development</span></a>
+                        <a href="course-single-v2.html"><span class="mb-1 d-inline-block text-gray-800">Figma</span></a>
 
                         <!-- Heading -->
                         <div class="position-relative">
-                            <a href="course-single-v2.html" class="d-block stretched-link"><h4 class="line-clamp-2 h-md-48 h-lg-58 me-md-6 me-lg-10 me-xl-4 mb-2">The Complete JavaScript Course 2020: Build Real Projects!</h4></a>
+                            <a href="course-single-v2.html" class="d-block stretched-link"><h4 class="line-clamp-2 h-md-48 h-lg-58 me-md-6 me-lg-10 me-xl-4 mb-2">The Complete JavaScript Course 2023: Build Real Projects!</h4></a>
 
                             <div class="d-lg-flex align-items-end flex-wrap mb-n1">
                                 <div class="star-rating mb-2 mb-lg-0 me-lg-3">
@@ -334,7 +324,7 @@
                                                     </svg>
 
                                                 </div>
-                                                <div class="font-size-sm">5 lessons</div>
+                                                <div class="font-size-sm">6 lessons</div>
                                             </div>
                                         </li>
                                         <li class="nav-item px-3">
@@ -347,7 +337,7 @@
                                                     </svg>
 
                                                 </div>
-                                                <div class="font-size-sm">8h 12m</div>
+                                                <div class="font-size-sm">9h 12m</div>
                                             </div>
                                         </li>
                                     </ul>
@@ -355,7 +345,7 @@
 
                                 <div class="col-auto px-2 text-right">
                                     <del class="font-size-sm">$959</del>
-                                    <ins class="h4 mb-0 d-block mb-lg-n1">$21.99</ins>
+                                    <ins class="h4 mb-0 d-block mb-lg-n1">Free</ins>
                                 </div>
                             </div>
                         </div>
@@ -368,11 +358,11 @@
                     <!-- Image -->
                     <div class="card-zoom position-relative">
                         <a href="course-single-v2.html" class="card-img sk-thumbnail d-block">
-                            <img class="rounded shadow-light-lg" src="assets/img/products/product-3.jpg" alt="...">
+                            <img class="rounded shadow-light-lg" src="static\assets\img\avatars\figma.jpeg" alt="...">
                         </a>
 
                         <span class="badge sk-fade-bottom badge-lg badge-purple badge-pill badge-float bottom-0 left-0 mb-4 ms-4">
-                            <span class="text-white text-uppercase fw-bold font-size-xs">Featured</span>
+                            <span class="text-white text-uppercase fw-bold font-size-xs">Web Development</span>
                         </span>
                     </div>
 
@@ -380,12 +370,12 @@
                     <div class="card-footer px-2 pb-2 mb-1 pt-4 position-relative">
                         <a href="instructors-single.html" class="">
                             <div class="avatar avatar-xl sk-fade-right badge-float position-absolute top-0 right-0 mt-n6 me-5 rounded-circle shadow border border-white border-w-lg">
-                                <img src="assets/img/avatars/avatar-3.jpg" alt="..." class="avatar-img rounded-circle">
+                                <img src="static\assets\img\avatars\avatar-1.jpg" alt="..." class="avatar-img rounded-circle">
                             </div>
                         </a>
 
                         <!-- Preheading -->
-                        <a href="course-single-v2.html"><span class="mb-1 d-inline-block text-gray-800">Photography</span></a>
+                        <a href="course-single-v2.html"><span class="mb-1 d-inline-block text-gray-800">Figma</span></a>
 
                         <!-- Heading -->
                         <div class="position-relative">
@@ -397,7 +387,7 @@
                                 </div>
 
                                 <div class="font-size-sm">
-                                    <span>5.45 (5.8k+ reviews)</span>
+                                    <span>5.53 (7.8k+ reviews)</span>
                                 </div>
                             </div>
 
@@ -413,7 +403,7 @@
                                                     </svg>
 
                                                 </div>
-                                                <div class="font-size-sm">5 lessons</div>
+                                                <div class="font-size-sm">9 lessons</div>
                                             </div>
                                         </li>
                                         <li class="nav-item px-3">
@@ -426,7 +416,7 @@
                                                     </svg>
 
                                                 </div>
-                                                <div class="font-size-sm">8h 12m</div>
+                                                <div class="font-size-sm">7h 12m</div>
                                             </div>
                                         </li>
                                     </ul>
@@ -434,7 +424,7 @@
 
                                 <div class="col-auto px-2 text-right">
                                     <del class="font-size-sm">$959</del>
-                                    <ins class="h4 mb-0 d-block mb-lg-n1">$129.99</ins>
+                                    <ins class="h4 mb-0 d-block mb-lg-n1">Free</ins>
                                 </div>
                             </div>
                         </div>
@@ -447,7 +437,7 @@
                     <!-- Image -->
                     <div class="card-zoom position-relative">
                         <a href="course-single-v2.html" class="card-img sk-thumbnail d-block">
-                            <img class="rounded shadow-light-lg" src="assets/img/products/product-4.jpg" alt="...">
+                            <img class="rounded shadow-light-lg" src="static\assets\img\avatars\data-analyst.jpeg" alt="...">
                         </a>
                     </div>
 
@@ -455,16 +445,16 @@
                     <div class="card-footer px-2 pb-2 mb-1 pt-4 position-relative">
                         <a href="instructors-single.html" class="">
                             <div class="avatar avatar-xl sk-fade-right badge-float position-absolute top-0 right-0 mt-n6 me-5 rounded-circle shadow border border-white border-w-lg">
-                                <img src="assets/img/avatars/avatar-3.jpg" alt="..." class="avatar-img rounded-circle">
+                                <img src="static\assets\img\avatars\avatar-2.jpg" alt="..." class="avatar-img rounded-circle">
                             </div>
                         </a>
 
                         <!-- Preheading -->
-                        <a href="course-single-v2.html"><span class="mb-1 d-inline-block text-gray-800">Photography</span></a>
+                        <a href="course-single-v2.html"><span class="mb-1 d-inline-block text-gray-800">Data Analysis</span></a>
 
                         <!-- Heading -->
                         <div class="position-relative">
-                            <a href="course-single-v2.html" class="d-block stretched-link"><h4 class="line-clamp-2 h-md-48 h-lg-58 me-md-6 me-lg-10 me-xl-4 mb-2">The Complete Financial Analyst Course 2020</h4></a>
+                            <a href="course-single-v2.html" class="d-block stretched-link"><h4 class="line-clamp-2 h-md-48 h-lg-58 me-md-6 me-lg-10 me-xl-4 mb-2">The Complete Data Analyst Course 2022</h4></a>
 
                             <div class="d-lg-flex align-items-end flex-wrap mb-n1">
                                 <div class="star-rating mb-2 mb-lg-0 me-lg-3">
@@ -488,7 +478,7 @@
                                                     </svg>
 
                                                 </div>
-                                                <div class="font-size-sm">5 lessons</div>
+                                                <div class="font-size-sm">6 lessons</div>
                                             </div>
                                         </li>
                                         <li class="nav-item px-3">
@@ -509,7 +499,7 @@
 
                                 <div class="col-auto px-2 text-right">
                                     <del class="font-size-sm">$959</del>
-                                    <ins class="h4 mb-0 d-block mb-lg-n1">$415.99</ins>
+                                    <ins class="h4 mb-0 d-block mb-lg-n1">Free</ins>
                                 </div>
                             </div>
                         </div>
@@ -522,7 +512,7 @@
                     <!-- Image -->
                     <div class="card-zoom position-relative">
                         <a href="course-single-v2.html" class="card-img sk-thumbnail d-block">
-                            <img class="rounded shadow-light-lg" src="assets/img/products/product-5.jpg" alt="...">
+                            <img class="rounded shadow-light-lg" src="static\assets\img\avatars\prompt-engineering.jpeg" alt="...">
                         </a>
                     </div>
 
@@ -530,17 +520,17 @@
                     <div class="card-footer px-2 pb-2 mb-1 pt-4 position-relative">
                         <a href="instructors-single.html" class="">
                             <div class="avatar avatar-xl sk-fade-right badge-float position-absolute top-0 right-0 mt-n6 me-5 rounded-circle shadow border border-white border-w-lg">
-                                <img src="assets/img/avatars/avatar-1.jpg" alt="..." class="avatar-img rounded-circle">
+                                <img src="static\assets\img\avatars\avatar-3.jpg" alt="..." class="avatar-img rounded-circle">
                             </div>
                         </a>
 
                         <!-- Preheading -->
-                        <a href="course-single-v2.html"><span class="mb-1 d-inline-block text-gray-800">Photography</span></a>
+                        <a href="course-single-v2.html"><span class="mb-1 d-inline-block text-gray-800">Prompt Enginnering</span></a>
 
 
                         <!-- Heading -->
                         <div class="position-relative">
-                            <a href="course-single-v2.html" class="d-block stretched-link"><h4 class="line-clamp-2 h-md-48 h-lg-58 me-md-6 me-lg-10 me-xl-4 mb-2">Fashion Photography From Professional</h4></a>
+                            <a href="course-single-v2.html" class="d-block stretched-link"><h4 class="line-clamp-2 h-md-48 h-lg-58 me-md-6 me-lg-10 me-xl-4 mb-2">Learn to Build Chatgpt</h4></a>
 
                             <div class="d-lg-flex align-items-end flex-wrap mb-n1">
                                 <div class="star-rating mb-2 mb-lg-0 me-lg-3">
@@ -564,7 +554,7 @@
                                                     </svg>
 
                                                 </div>
-                                                <div class="font-size-sm">5 lessons</div>
+                                                <div class="font-size-sm">10 lessons</div>
                                             </div>
                                         </li>
                                         <li class="nav-item px-3">
@@ -577,7 +567,7 @@
                                                     </svg>
 
                                                 </div>
-                                                <div class="font-size-sm">8h 12m</div>
+                                                <div class="font-size-sm">9h 16m</div>
                                             </div>
                                         </li>
                                     </ul>
@@ -585,7 +575,7 @@
 
                                 <div class="col-auto px-2 text-right">
                                     <del class="font-size-sm">$959</del>
-                                    <ins class="h4 mb-0 d-block mb-lg-n1">$415.99</ins>
+                                    <ins class="h4 mb-0 d-block mb-lg-n1">Free</ins>
                                 </div>
                             </div>
                         </div>
@@ -598,7 +588,7 @@
                     <!-- Image -->
                     <div class="card-zoom position-relative">
                         <a href="course-single-v2.html" class="card-img sk-thumbnail d-block">
-                            <img class="rounded shadow-light-lg" src="assets/img/products/product-6.jpg" alt="...">
+                            <img class="rounded shadow-light-lg" src="static\assets\img\avatars\flutter.jpeg" alt="...">
                         </a>
                     </div>
 
@@ -606,16 +596,16 @@
                     <div class="card-footer px-2 pb-2 mb-1 pt-4 position-relative">
                         <a href="instructors-single.html" class="">
                             <div class="avatar avatar-xl sk-fade-right badge-float position-absolute top-0 right-0 mt-n6 me-5 rounded-circle shadow border border-white border-w-lg">
-                                <img src="assets/img/avatars/avatar-5.jpg" alt="..." class="avatar-img rounded-circle">
+                                <img src="static\assets\img\avatars\avatar-5.jpg" alt="..." class="avatar-img rounded-circle">
                             </div>
                         </a>
 
                         <!-- Preheading -->
-                        <a href="course-single-v2.html"><span class="mb-1 d-inline-block text-gray-800">Photography</span></a>
+                        <a href="course-single-v2.html"><span class="mb-1 d-inline-block text-gray-800">Flutter</span></a>
 
                         <!-- Heading -->
                         <div class="position-relative">
-                            <a href="course-single-v2.html" class="d-block stretched-link"><h4 class="line-clamp-2 h-md-48 h-lg-58 me-md-6 me-lg-10 me-xl-4 mb-2">Learn Figma: User Interface Design Essentials - UI/UX Design</h4></a>
+                            <a href="course-single-v2.html" class="d-block stretched-link"><h4 class="line-clamp-2 h-md-48 h-lg-58 me-md-6 me-lg-10 me-xl-4 mb-2">Learn Android App Development</h4></a>
 
                             <div class="d-lg-flex align-items-end flex-wrap mb-n1">
                                 <div class="star-rating mb-2 mb-lg-0 me-lg-3">
@@ -639,7 +629,7 @@
                                                     </svg>
 
                                                 </div>
-                                                <div class="font-size-sm">5 lessons</div>
+                                                <div class="font-size-sm">12 lessons</div>
                                             </div>
                                         </li>
                                         <li class="nav-item px-3">
@@ -652,7 +642,7 @@
                                                     </svg>
 
                                                 </div>
-                                                <div class="font-size-sm">8h 12m</div>
+                                                <div class="font-size-sm">16h 12m</div>
                                             </div>
                                         </li>
                                     </ul>
@@ -660,7 +650,7 @@
 
                                 <div class="col-auto px-2 text-right">
                                     <del class="font-size-sm">$959</del>
-                                    <ins class="h4 mb-0 d-block mb-lg-n1">$129.99</ins>
+                                    <ins class="h4 mb-0 d-block mb-lg-n1">Free</ins>
                                 </div>
                             </div>
                         </div>
